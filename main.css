@@ -1,0 +1,36 @@
+.grid-item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding: 1px;
+}
+
+.posts-container{
+    background: #E2E2E2;
+    min-height: 100vh;
+}
+
+.post-item{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.post-item--header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-item--header > .post-item--title{
+    font-size: 1.2em;
+}
+
+.post-item--image img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.likes > i:hover {
+    color: red;
+    cursor: pointer;
+}

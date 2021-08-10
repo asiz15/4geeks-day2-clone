@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+    <title>4Geeks day 2</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand"><i class="fab fa-instagram"></i> <strong>Instagram</strong></a>
+            <form class="d-flex">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Create a new post
+                </button>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Log out</a></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <!-- end nav-->
+    <ul class="nav nav-pills justify-content-center pt-2 mb-2" id="myTab" role="tablist" style="margin-top: 60px;">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active btn-sm" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                type="button" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-th"></i>
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link btn-sm" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                type="button" role="tab" aria-controls="profile" aria-selected="false">
+                <i class="fas fa-square"></i>
+            </button>
+        </li>
+    </ul>
+    <!-- end tabs -->
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row g-0">
+                <div class="col-4 grid-item">
+                    <img src="https://images.unsplash.com/photo-1624374984719-0d146ea066e1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                        alt="">
+                </div>
+                <div class="col-4 grid-item">
+                    <img src="https://images.unsplash.com/photo-1583707395263-f94b9030404d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                        alt="">
+                </div>
+                <div class="col-4 grid-item">
+                    <img src="https://images.unsplash.com/photo-1628174383885-642404980686?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
+                        alt="">
+                </div>
+                <div class="col-4 grid-item">
+                    <img src="https://images.unsplash.com/photo-1627986866449-dab49fc31176?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                        alt="">
+                </div>
+                <div class="col-4 grid-item">
+                    <img src="https://images.unsplash.com/photo-1617787019344-21737f38b41c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80"
+                        alt="">
+                </div>
+                <div class="col-4 grid-item">
+                    <img src="https://images.unsplash.com/photo-1628423162054-fc3eadb9ebc1?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                </div>
+                <div class="col-4 grid-item">
+                    <img src="https://images.unsplash.com/photo-1628320200973-f4a88a285d20?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=721&q=80"
+                        alt="">
+                </div>
+                <div class="col-4 grid-item">
+                    <img src="https://images.unsplash.com/photo-1628092433658-de4816911fbe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1098&q=80"
+                        alt="">
+                </div>
+                <div class="col-4 grid-item">
+                    <img src="https://images.unsplash.com/photo-1628148833282-023019fd39bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                        alt="">
+                </div>
+                <div class="col-4 grid-item">
+                    <img src="https://images.unsplash.com/photo-1623645481161-0d8160281cbf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=620&q=80"
+                        alt="">
+                </div>
+                <div class="col-4 grid-item">
+                    <img src="https://images.unsplash.com/photo-1628155524928-35c02b8ac4d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="">
+                </div>
+                <div class="col-4 grid-item">
+                    <img src="https://images.unsplash.com/photo-1628372318550-1e7c5273045f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+                        alt="">
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <!--Posts-->
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <section class="posts-container py-4 row px-sm-5 px-xs-5 px-md-0">
+                <article class="post-item mb-4 p-0 col-sm-12 col-md-6 offset-md-3">
+                    <div class="post-item--header p-3 pt-4">
+                        <h6 class="post-item--title">My first post</h6>
+                        <span class="post-item--meta">12/16</span>
+                    </div>
+                    <div class="post-item--image">
+                        <img src="https://images.unsplash.com/photo-1628487988355-d324c6513d75?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1015&q=80"
+                            alt="">
+                    </div>
+                    <div class="post-item--body p-3">
+                        <span class="likes"><i class="far fa-heart"></i> 33 likes</span>
+                        <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium sunt,
+                            voluptate, ipsum perferendis ab voluptatibus quia recusandae itaque amet necessitatibus
+                            facilis porro totam magnam, et non sint. Quisquam, deleniti ducimus.</p>
+                    </div>
+                </article>
+                <article class="post-item mb-4 p-0 col-sm-12 col-md-6 offset-md-3">
+                    <div class="post-item--header p-3">
+                        <h6 class="post-item--title">My first post</h6>
+                        <span class="post-item--meta">12/16</span>
+                    </div>
+                    <div class="post-item--image">
+                        <img src="https://images.unsplash.com/photo-1627986987603-b3f889ce8a5c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                            alt="">
+                    </div>
+                    <div class="post-item--body p-3">
+                        <span class="likes"><i class="far fa-heart"></i> 33 likes</span>
+                        <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium sunt,
+                            voluptate, ipsum perferendis ab voluptatibus quia recusandae itaque amet necessitatibus
+                            facilis porro totam magnam, et non sint. Quisquam, deleniti ducimus.</p>
+                    </div>
+                </article>
+                <article class="post-item mb-4 p-0 col-sm-12 col-md-6 offset-md-3">
+                    <div class="post-item--header p-3">
+                        <h6 class="post-item--title">My first post</h6>
+                        <span class="post-item--meta">12/16</span>
+                    </div>
+                    <div class="post-item--image">
+                        <img src="https://images.unsplash.com/photo-1628302584086-d19289557efe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="post-item--body p-3">
+                        <span class="likes"><i class="far fa-heart"></i> 33 likes</span>
+                        <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium sunt,
+                            voluptate, ipsum perferendis ab voluptatibus quia recusandae itaque amet necessitatibus
+                            facilis porro totam magnam, et non sint. Quisquam, deleniti ducimus.</p>
+                    </div>
+                </article>
+                <article class="post-item mb-4 p-0 col-sm-12 col-md-6 offset-md-3">
+                    <div class="post-item--header p-3">
+                        <h6 class="post-item--title">My first post</h6>
+                        <span class="post-item--meta">12/16</span>
+                    </div>
+                    <div class="post-item--image">
+                        <img src="https://images.unsplash.com/photo-1628254747021-59531f59504b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+                            alt="">
+                    </div>
+                    <div class="post-item--body p-3">
+                        <span class="likes"><i class="far fa-heart"></i> 33 likes</span>
+                        <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium sunt,
+                            voluptate, ipsum perferendis ab voluptatibus quia recusandae itaque amet necessitatibus
+                            facilis porro totam magnam, et non sint. Quisquam, deleniti ducimus.</p>
+                    </div>
+                </article>
+                <article class="post-item mb-4 p-0 col-sm-12 col-md-6 offset-md-3">
+                    <div class="post-item--header p-3">
+                        <h6 class="post-item--title">My first post</h6>
+                        <span class="post-item--meta">12/16</span>
+                    </div>
+                    <div class="post-item--image">
+                        <img src="https://images.unsplash.com/photo-1628257131426-61a20677dc91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                            alt="">
+                    </div>
+                    <div class="post-item--body p-3">
+                        <span class="likes"><i class="far fa-heart"></i> 33 likes</span>
+                        <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium sunt,
+                            voluptate, ipsum perferendis ab voluptatibus quia recusandae itaque amet necessitatibus
+                            facilis porro totam magnam, et non sint. Quisquam, deleniti ducimus.</p>
+                    </div>
+                </article>
+                <article class="post-item mb-4 p-0 col-sm-12 col-md-6 offset-md-3">
+                    <div class="post-item--header p-3">
+                        <h6 class="post-item--title">My first post</h6>
+                        <span class="post-item--meta">12/16</span>
+                    </div>
+                    <div class="post-item--image">
+                        <img src="https://images.unsplash.com/photo-1628487988355-d324c6513d75?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1015&q=80"
+                            alt="">
+                    </div>
+                    <div class="post-item--body p-3">
+                        <span class="likes"><i class="far fa-heart"></i> 33 likes</span>
+                        <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium sunt,
+                            voluptate, ipsum perferendis ab voluptatibus quia recusandae itaque amet necessitatibus
+                            facilis porro totam magnam, et non sint. Quisquam, deleniti ducimus.</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <!--Posts-->
+    </div>
+    <!--end tabs content-->
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <textarea class="form-control" rows="2" style="border: 1px solid #000"></textarea>
+                    <div class="actions pt-2">
+                        <button class="btn btn-outline-secondary" type="button">
+                            <i class="fas fa-camera"></i>
+                        </button>
+                        <button class="btn btn-outline-secondary" type="button">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-success">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
